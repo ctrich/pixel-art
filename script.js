@@ -3,7 +3,7 @@ createGrid(16);
 
 let draw = false;
 
-const btnClear = document.querySelector('#btn-clear');
+const btnClear = document.querySelector('.btn');
 
 
 btnClear.addEventListener('click', clearGrid);
